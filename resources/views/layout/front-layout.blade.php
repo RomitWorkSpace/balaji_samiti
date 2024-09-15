@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Balaji MAnav Sewa Samiti</title>
+  <title>Shri Balaji Manav Seva Samiti</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -43,12 +43,24 @@
 
   <!-- ======= Header ======= -->
    <div class="top-nav">
-
+    <div class="container">
+        <div class="row justify-content-space-between">
+            <div class="col-md-3 col-6">
+                <i class="fa fa-phone"></i>
+                <span>9315244822</span>
+            </div>
+            <div class="col-md-3 col-6">
+                <a href="/donate" class="white">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <span>Donate</span></a> | Help
+            </div>
+        </div>
+    </div>
    </div>
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="/" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <img src="/images/Logo.png" alt="">
@@ -58,10 +70,12 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="/">
+होम</a></li>
+          <li><a href="/about">हमारे बारे में</a></li>
+          <li><a href="/cause">परियोजना</a></li>
+          <li><a href="/events">कार्यक्रम</a></li>
+          <li><a href="/blog">ब्लॉग</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -79,8 +93,9 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a href="contact.html">Contact</a></li>
-          <li><a class="get-a-quote" href="/"><i class="fa-solid fa-hand-holding-dollar" id="donate-icon"></i> Donate</a></li>
+          <li><a href="/gallery">गैलरी</a></li>
+          <li><a href="/contact">संपर्क करें</a></li>
+          <!--<li><a class="get-a-quote" href="/donate"><i class="fa-solid fa-hand-holding-dollar" id="donate-icon"></i> Donate</a></li>-->
         </ul>
       </nav><!-- .navbar -->
 
@@ -98,7 +113,7 @@
     <div class="container">
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="/" class="logo d-flex align-items-center">
           <img src="/images/Logo.png" alt="">
           </a>
           <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
