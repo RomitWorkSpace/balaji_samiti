@@ -4,15 +4,38 @@
 
 
 <main id="main">
-  <div class="swiper slides-1">
+  <div class="swiper slides-1 mb-none">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-            <img src="/images/sliders/test-slider.jpeg" alt="" width="100%" />
+            <img src="/images/sliders/slider-1.jpg" alt="slider" width="100%" />
         </div>
         <div class="swiper-slide">
-            <img src="/images/sliders/test-slider.jpeg" alt="" width="100%" />
+            <img src="/images/sliders/slider-2.jpg" alt="slider" width="100%" />
         </div>
-        
+        <div class="swiper-slide">
+            <img src="/images/sliders/slider-3.jpg" alt="slider" width="100%" />
+        </div>
+        <div class="swiper-slide">
+            <img src="/images/sliders/slider-4.jpg" alt="slider" width="100%" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    
+    <div class="swiper slides-1 dk-none">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="/images/sliders/2.jpg" alt="slider" width="100%" />
+        </div>
+        <div class="swiper-slide">
+            <img src="/images/sliders/3.jpg" alt="slider" width="100%" />
+        </div>
+        <div class="swiper-slide">
+            <img src="/images/sliders/4.jpg" alt="slider" width="100%" />
+        </div>
+        <div class="swiper-slide">
+            <img src="/images/sliders/5.jpg" alt="slider" width="100%" />
+        </div>
       </div>
       <div class="swiper-pagination"></div>
     </div>
@@ -34,7 +57,8 @@
     
     <section class="feature">
       <div class="container" data-aos="fade-up">
-        <div class="row">
+          <h2 class="bold-6 text-center clr-blue">श्री बालाजी मानव सेवा समिति का लक्ष्य</h2>
+        <div class="row mt-5">
           <div class="col-md-4 p-4 feature-wrap relative">
             <div class="feature-bg" style="background-color:#FF6D06B2">
               <img src="/images/feature1.png" alt="icon" class="icon">
@@ -43,9 +67,11 @@
                 <p style="font-size:20px;">के उद्देश्य को लेकर परमात्मा की बनाई हुई...............</p>
               </div>
             </div>
+            <a href="/feature-detail">
             <div class="feature-btn">
                 Read More
             </div>
+            </a>
           </div>
           <div class="col-md-4 p-4 feature-wrap relative">
             <div class="feature-bg" style="background-color:#33257AB2">
@@ -54,9 +80,11 @@
               <div class="mt-4">
                 <p style="font-size:20px;">के उद्देश्य को लेकर परमात्मा की बनाई हुई...............</p>
               </div>
-              <div class="feature-btn">
-                Read More
-              </div>
+              <a href="/feature-detail">
+                <div class="feature-btn">
+                  Read More
+                </div>
+              </a>
             </div>
           </div>
           <div class="col-md-4 p-4 feature-wrap relative">
@@ -67,9 +95,11 @@
                 <p class="sub-title">के उद्देश्य को लेकर परमात्मा की बनाई हुई...............</p>
               </div>
             </div>
+            <a href="/feature-detail">
             <div class="feature-btn">
                 Read More
             </div>
+            </a>
           </div>
         </div>
       </div>
@@ -79,7 +109,7 @@
    
   <div class="message-section pt-3 pb-5">
     <div class="container text-center">
-      <h2 class="section-title bold-6">संस्थापक संयोजक का संदेश</h2>
+      <h2 class="section-title bold-6 clr-blue">संस्थापक संयोजक का संदेश</h2>
       <p class="sub-title">के उद्देश्य को लेकर परमात्मा की बनाई हुई...............</p>
     </div>
     <div class="container-fluid message-bg pt-5 pb-5">
@@ -176,7 +206,7 @@
         <div class="row">
           <div class="col-md-2"></div>
           <div class="col-md-8">
-            <h2 class="text-center bold-6">उद्वेश्य</h2>
+            <h2 class="text-center bold-6 clr-blue">उद्वेश्य</h2>
             <p class="sub-title text-center">के उद्देश्य को लेकर परमात्मा की बनाई हुई...............</p>
             <div class="purpose-content mt-5">
               <p>विश्व शांति के लिए यज्ञ हवन आदि करना।</p>
@@ -193,7 +223,7 @@
 
     <section class="gallery-section">
       <div class="container text-center">
-        <h2 class="bold-6">गैलरी</h2>
+        <h2 class="bold-6 clr-blue">गैलरी</h2>
         <p class="sub-title text-center">के उद्देश्य को लेकर परमात्मा की बनाई हुई...............</p>
       </div>
       <div class="container mt-5">
@@ -222,7 +252,7 @@
 
   <section class="work-section pb-0">
     <div class="container text-center">
-      <h2 class="bold-6">संस्था द्वारा किए जा रहे कार्य</h2>
+      <h2 class="bold-6 clr-blue">संस्था द्वारा किए जा रहे कार्य</h2>
       <p class="sub-title text-center">के उद्देश्य को लेकर परमात्मा की बनाई हुई...............</p>
     </div>
     <div class="work-bg">
@@ -236,7 +266,8 @@
           </div>
           <div class="col-md-4">
             <div class="work-card text-center">
-              <h4 class="bold-6">संस्कार पाठशाला निशुल्क ( सनातन को जानें )</h4>
+              <h4 class="bold-6">सनातन विद्या मंदिर 
+संस्कार पाठशाला</h4>
               <h1 class="work-text">2</h1>
             </div>
           </div>
@@ -254,7 +285,7 @@
 
   <section class="requirement-section">
     <div class="container text-center">
-      <h2 class="bold-6">संस्था की वर्तमान आवश्यकता</h2>
+      <h2 class="bold-6 clr-blue">संस्था की वर्तमान आवश्यकता</h2>
       <p class="sub-title text-center">के उद्देश्य को लेकर परमात्मा की बनाई हुई...............</p>
     </div>
     <div class="container mt-5">
@@ -330,7 +361,7 @@
 
   <section class="wedding-section">
     <div class="container text-center">
-      <h2 class="bold-6">सामूहिक विवाह के लिए एक फार्म</h2>
+      <h2 class="bold-6 clr-blue">सामूहिक विवाह के लिए आवेदन</h2>
       <p class="sub-title text-center">के उद्देश्य को लेकर परमात्मा की बनाई हुई...............</p>
     </div>
     <div class="wedding-wrapper mt-5">
@@ -353,7 +384,7 @@
 
   <div class="container-fluid contact-section">
     <div class="container text-center">
-      <h2 class="bold-6">संपर्क करें</h2>
+      <h2 class="bold-6 clr-blue">संपर्क करें</h2>
     </div>
     <div class="container mt-5">
       <div class="row">
@@ -427,11 +458,12 @@
 
   <section class="news-section">
     <div class="container text-center">
-      <h2 class="bold-6">Latest News</h2>
+      <h2 class="bold-6 clr-blue">Latest News</h2>
     </div>
     <div class="container mt-4">
       <div class="row">
         <div class="col-md-4 mb-4">
+        <a href="/blog-detail">   
           <div class="news-wrapper">
             <img src="/images/blog.png" width="100%" alt="news" />
             <div class="news-content">
@@ -440,8 +472,10 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, risus ac hendrerit consectetur, elit nisl luctus est.</p>
             </div>
           </div>
+          </a> 
         </div>
         <div class="col-md-4 mb-4">
+        <a href="/blog-detail">  
           <div class="news-wrapper">
             <img src="/images/blog.png" width="100%" alt="news" />
             <div class="news-content">
@@ -450,8 +484,10 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, risus ac hendrerit consectetur, elit nisl luctus est.</p>
             </div>
           </div>
+          </a>
         </div>
         <div class="col-md-4">
+            <a href="/blog-detail">  
           <div class="news-wrapper">
             <img src="/images/blog.png" width="100%" alt="news" />
             <div class="news-content">
@@ -460,6 +496,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, risus ac hendrerit consectetur, elit nisl luctus est.</p>
             </div>
           </div>
+          </a>
         </div>
       </div>
     </div>
