@@ -321,7 +321,7 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="event-card">
-              <img src="/images/event1.png" alt="" width="100%" />
+              <img src="/images/events/1.jpg" alt="" width="100%" />
               <div class="event-content">
                 संस्कार प्रतियोगिता<br/>
                 सनातन को जानें<br/>
@@ -332,23 +332,56 @@
           </div>
           <div class="swiper-slide">
           <div class="event-card">
-              <img src="/images/event2.png" alt="" width="100%" />
+              <img src="/images/events/2.jpg" alt="" width="100%" />
               <div class="event-content">
-                संस्कार प्रतियोगिता<br/>
-                सनातन को जानें<br/>
-                आश्वनि कृष्ण पक्ष द्वादशी <br/>
-                29 सितंबर 2024 (रविवार)
+                वार्षिकोत्सव<br/>
+                आश्वनि शुक्ल पक्ष<br/>
+                शरद पूर्णिमा <br/>
+                17 अक्तूबर 2024 (गुरुवार)
               </div>
             </div>
           </div>
           <div class="swiper-slide">
           <div class="event-card">
-              <img src="/images/event1.png" alt="" width="100%" />
+              <img src="/images/events/3.jpg" alt="" width="100%" />
               <div class="event-content">
-                संस्कार प्रतियोगिता<br/>
-                सनातन को जानें<br/>
-                आश्वनि कृष्ण पक्ष द्वादशी <br/>
-                29 सितंबर 2024 (रविवार)
+                दीपोत्सव<br/>
+                कार्तिक कृष्ण पक्ष<br/>
+                एकादशी<br/>
+                27 अक्तूबर 2024 (रविवार)
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+          <div class="event-card">
+              <img src="/images/events/4.jpg" alt="" width="100%" />
+              <div class="event-content">
+                सामूहिक विवाह <br/>
+                वर वधु वस्त्र वितरण<br/>
+                पौष शुक्ल पक्ष मकर संक्रांति<br/>
+                14 जनवरी 2025 (मंगलवार)
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+          <div class="event-card">
+              <img src="/images/events/5.jpg" alt="" width="100%" />
+              <div class="event-content">
+                सामूहिक विवाह आयोजन <br/>
+                माघ शुक्ल पक्ष<br/>
+                बसंत पंचमी <br/>
+                2 फरवरी 2025 (रविवार)
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+          <div class="event-card">
+              <img src="/images/events/6.jpg" alt="" width="100%" />
+              <div class="event-content">
+                हनुमान जन्मोत्सव<br/>
+                चैत्र शुक्ल पक्ष <br/>
+                पूर्णिमा<br/>
+                12 अप्रैल 2025 (शनिवार)
               </div>
             </div>
           </div>
@@ -358,6 +391,22 @@
     </div>
   </div>
 </div>
+
+<style>
+    .application-step ul{
+        list-style:none;
+        font-size:18px;
+        line-height:2;
+    }
+    .application-step li::before{
+        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0a4";
+        color:#46afc9;
+    }
+    .fa-file-pdf{
+        font-size: x-large;
+        margin-left:20px;
+    }
+</style>
 
   <section class="wedding-section">
     <div class="container text-center">
@@ -372,8 +421,16 @@
             <img src="/images/wedding.png" alt="wedding" width="100%" />
           </div>
           <div class="col-md-6">
-            <div class="wedding-btn text-center p-5">
-              <button class="btn btn-primary">Click Here</button>
+            <div class="pt-5 pb-3 application-step">
+                <ul>
+                    <li> कृपया विवाह प्रपत्र डाउनलोड करें <a href="/files/registration-form.pdf" target="_blank"><i class="fa-regular fa-file-pdf"></i></a></li>
+                    <li> कृपया स्व-घोषणा प्रपत्र डाउनलोड करें <a href="/files/self-desclaration.pdf" target="_blank"><i class="fa-regular fa-file-pdf"></i></a></li>
+                    <li> निर्देशों को पढ़ें और सभी विकल्पों को बहुत सावधानी से भरें।</li>
+                    <li> अब नीचे दिए गए बटन पर क्लिक करें और आवेदन करने के लिए फॉर्म भरें।</li>
+                </ul>
+            </div>
+            <div class="wedding-btn text-center p-3">
+              <a href="/wedding-form"><button class="btn btn-primary">Click Here</button></a>
             </div>
           </div>
         </div>
